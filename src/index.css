@@ -1,0 +1,18 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,400;0,500;1,100&family=Lexend:wght@100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.font-lexend{
+    font-family: "Lexend", sans-serif;
+}
+
+.font-faria{
+    font-family: "Fira Sans", sans-serif;
+}
+
+.table-cell{
+   padding-left: 30px;
+}

@@ -1,0 +1,103 @@
+[
+    {
+      "recipe_id": 1,
+      "name": "Spaghetti Carbonara",
+      "image": "https://i.ibb.co.com/G0WbTKG/top-view-tasty-meat-soup-with-potatoes-greens-dark-desk.jpg",
+      "description": "Classic Italian pasta with creamy egg sauce, pancetta, and Parmesan.",
+      "ingredients": [
+        "spaghetti",
+        "pancetta",
+        "eggs",
+        "Parmesan cheese",
+        "salt",
+        "pepper"
+      ],
+      "preparing_time": "20 minutes",
+      "calories": 450
+    },
+    {
+      "recipe_id": 2,
+      "name": "Chicken Stir Fry",
+      "image": "https://i.ibb.co.com/1mPJNGx/lemon-pepper-near-sauce-chicken.jpg",
+      "description": "Quick and flavorful chicken stir fry with fresh vegetables and soy sauce.",
+      "ingredients": [
+        "chicken breast",
+        "bell pepper",
+        "carrot",
+        "broccoli",
+        "soy sauce",
+        "olive oil"
+      ],
+      "preparing_time": "25 minutes",
+      "calories": 300
+    },
+    {
+      "recipe_id": 3,
+      "name": "Vegetable Soup",
+      "image": "https://i.ibb.co.com/q9C1nVb/bowl-vegetable-soup-broth-served-with-lemon-green-salad.jpg",
+      "description": "Hearty vegetable soup made with fresh veggies in a savory broth.",
+      "ingredients": [
+        "onion",
+        "carrots",
+        "celery",
+        "potato",
+        "diced tomatoes",
+        "vegetable broth",
+        "salt",
+        "pepper"
+      ],
+      "preparing_time":  "30 minutes",
+      "calories": 150
+    },
+    {
+      "recipe_id": 4,
+      "name": "Beef Tacos",
+      "image": "https://i.ibb.co.com/hXqQmjL/mexican-tacos-wooden-table.jpg",
+      "description": "Tasty beef tacos topped with lettuce, cheese, and salsa.",
+      "ingredients": [
+        "ground beef",
+        "onion",
+        "chili powder",
+        "cumin",
+        "salt",
+        "pepper",
+        "taco shells",
+        "lettuce",
+        "cheese",
+        "salsa"
+      ],
+      "preparing_time": "20 minutes",
+      "calories": 500
+    },
+    {
+      "recipe_id": 5,
+      "name": "Pancakes",
+      "image": "https://i.ibb.co.com/x62JJVj/carbohydrate-breakfast-pancakes-crepes-wafers.jpg",
+      "description": "Fluffy, golden pancakes perfect for breakfast, topped with syrup or fruit.",
+      "ingredients": [
+        "flour",
+        "sugar",
+        "baking powder",
+        "milk",
+        "egg",
+        "butter"
+      ],
+      "preparing_time": "15 minutes",
+      "calories": 250
+    },
+    {
+      "recipe_id": 6,
+      "name": "Caesar Salad",
+      "image": "https://i.ibb.co.com/rZ007K6/caesar-salad-with-fried-chicken.jpg",
+      "description": "Crispy romaine lettuce with Caesar dressing, Parmesan, and croutons.",
+      "ingredients": [
+        "romaine lettuce",
+        "croutons",
+        "Parmesan cheese",
+        "Caesar dressing"
+      ],
+      "preparing_time": "10 minutes",
+      "calories": 180
+    }
+  ]
+  
