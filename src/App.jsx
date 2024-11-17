@@ -9,10 +9,9 @@ import Recipes from './Components/Recipes/Recipes'
 function App() {
   const[cooks , setCooks] = useState([]);
   
-
   const handleWantToCook = (cook) =>{
     console.log(cook)
-   const isExist = cooks.find(item => item.name == cook.name);
+   const isExist = cooks.find(item => item.recipe_id == cook.recipe_id);
    if(!isExist){
     setCooks([...cooks,cook]);
    }
@@ -29,10 +28,12 @@ function App() {
       <p className='font-lexend text-xl text-[#150B2B99]'>Lorem ipsum dolor sit amet consectetur. Proin et feugiat senectus vulputate netus pharetra rhoncus. Eget urna volutpat curabitur elementum mauris aenean neque. </p>
 
 
-      <div className='flex space-x-10'>
+      <div className='flex md:flex-row flex-col gap-8'>
       <Recipes handleWantToCook = {handleWantToCook}
       > </Recipes> 
-      <Cooktables cooks = {cooks}
+      <Cooktables
+       cooks = {cooks}
+       setCooks = {setCooks}
       ></Cooktables>
       </div>
     </div>
